@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devsearch</title>
+    <link rel="icon" href="search.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<div class="wrapper">
+    <div class="search-container"> 
+        <div class="input-searchlogo">
+        <input type="text" class="profile-search-input" placeholder=" Search username" required>
+
+        </div>
+        <div class="error-div">
+            <p class="no-search-result">Enter name</p>
+        </div>
+        <button class="search-btn">
+            <i class="fa-brands fa-github"></i>
+        </button>
+    </div>
+
+
+        <div class="profile-container">
+
+            <div class="profile-header">
+                <img  class="profile-picture" src="" alt="">
+                <div class="name-and-username">
+                    <p class="name"></p>
+                    <a class="users-username" href="#" target="_blank" rel="noopener noreferrer" id="user"></a>
+                </div>
+                <p class="joined-date"></p>
+            </div>
+
+            <p class="bio"></p>
+
+            <div class="profile-stats">
+                <div class="repos stats-box">
+                    <p class="stats-name" >Repos</p>
+                    <p class="repos-num stats-num"></p>
+                </div>
+
+                <div class="followers stats-box">
+                    <p class="stats-name">followers</p>
+                    <p class="followers-num stats-num"></p>
+                </div>
+
+                <div class="following stats-box">
+                    <p class="stats-name">following</p>
+                    <p class="following-num stats-num"></p>
+                </div>
+            </div>
+
+
+            <div class="links">
+
+                <div class="location-div linkdiv">
+                    <p class="sitename">Location: </p>
+                    <div class="logo-links">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="location-name"></p>
+                    </div>
+                </div>
+
+                <div class="website-div linkdiv">
+                    <p class="sitename">Website: </p>
+                    <div class="logo-links">
+                    <i class="fa-solid fa-link"></i>
+                    <a href="#" class="website-link" target="_blank" ></a>
+                </div>
+                </div>
+
+                <div class="twitter-div linkdiv">
+                    <p class="sitename">Twitter: </p>
+                    <div class="logo-links">
+                    <i class="fa-brands fa-twitter"></i>
+                    <a href="#" class="twitter-username" target="_blank" ></a>
+                </div>
+                </div>
+
+                <div class="company-div linkdiv">
+                    <p class="sitename">Company: </p>
+                    <div class="logo-links">
+                    <i class="fa-solid fa-building"></i>
+                    <p class="companyname"></p>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+   <script src="main.js"></script> 
+   <script src="https://kit.fontawesome.com/9f36861056.js" crossorigin="anonymous"></script>
+</body>
+</html>
